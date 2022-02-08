@@ -1,0 +1,36 @@
+:root {
+    --color-primary-1: #072227;
+    --color-primary-2: #35858B;
+    --color-primary-3: #4FBDBA;
+    --color-primary-4: #AEFEFF;
+}
+
+* {
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-primary-1) !important;
+    color: var(--color-primary-4) !important
+    
+}
+.max-width{
+    max-width: 1200px;
+}
+a{
+    text-decoration: none !important;
+    color: var(--color-primary-4) !important
+}
+.main-cont{
+    background-color: var(--color-primary-1) !important;
+}
+
+.navbar-brand{
+    width: 5%
+}
+
+.bg-dark{
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(10px);
+  
+}
