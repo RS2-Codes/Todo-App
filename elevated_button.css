@@ -1,0 +1,24 @@
+.btn{
+    height: 32px;
+    width: 210px;
+    background-color: mediumseagreen;
+    color: moccasin;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: gray 10px 10px 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+}
+
+.btn:hover{
+    transition: 0.7s;
+    transform: translate(-10px,-10px);
+    box-shadow: gray 20px 20px 18px;
+}
+.btn:active{
+    transition: 0.2s;
+    transform: translate(5px,5px);
+    box-shadow: gray 5px 5px 5px;
+}
