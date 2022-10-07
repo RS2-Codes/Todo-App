@@ -15,11 +15,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="TodoList.css">
+    <link rel="stylesheet" href="elevated_button.css">
+    <link rel="stylesheet" href="Flex_box.css">
     <title>Todo | RS2-Codes</title>
 </head>
 
 <body>
-    <div class="main-cont d-flex justify-content-center ">
+    <div class="main-cont justify-content-center ">
         <div class="d-flex justify-content-center max-width">
             <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
                 <div class="container-fluid">
@@ -41,11 +44,29 @@
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav>  
+        </div>
+        
+    </div>
+        <div class="Container">
+            <div class="item item1">
+                <div>New Task</div>
+                <input type="text" id="inpList" placeholder="Enter the name of the task">
+                <div id="divInfo">A short one line description of your task</div>
+            </div><div class="item padding2 flexing">
+                <div  class="btn iteming" id="btnAdd">Add</div>
+                <div class="btn iteming" id="btnReset">Reset</div>
+                <!-- <div class="btn iteming" id="btnSort">Sort</div> -->
+                <div class="btn iteming" id="btnClean">Cleanup</div>
+                <div class="btn iteming" id="btnPopulate">Populate</div>
+            </div>
+        </div>
+        <div class="contain" id="divaddlist">
+            <!-- <div class="itm">hlfafulahfauf</div>
+            <div class="itm">alhfahflahfiahifa</div>
+            <div class="itm">alfhafulahfl</div> -->
         </div>
 
-
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
